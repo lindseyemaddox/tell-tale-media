@@ -358,7 +358,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 .inner {
-  max-width: 960px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 html {
@@ -368,14 +368,70 @@ html {
 p {
   padding-bottom: 20px;
 }
-p:last-child {
-  padding-bottom: 0;
-}
 /*=================================================*/
 /*================ ORGANIC STYLES ================*/
 /*===============================================*/
 /* (Groups of elements that are used throughout the site.) */
 /******** START MAIN HEADER AND NAVIGATION STYLES *********/
+header {
+  background-color: #febf10;
+}
+header div#logo {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 25px;
+}
+header div#nav {
+  display: inline-block;
+  vertical-align: top;
+}
+header li {
+  font-family: verdana, sans-serif;
+  font-size: 1.125em;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 20px 0;
+}
+header li a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #000;
+  background-position: 10px 20px;
+}
+header li a:hover {
+  text-decoration: none;
+  background-position: 10px 0px;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+header li a:hover.home {
+  background: url(/_assets/img/hover-home.png) no-repeat center center #febf10;
+}
+header li a:hover.about {
+  background: url(/_assets/img/hover-about.png) no-repeat center center #febf10;
+}
+header li a:hover.film {
+  background: url(/_assets/img/hover-film.png) no-repeat center center #febf10;
+}
+header li a:hover.design {
+  background: url(/_assets/img/hover-design.png) no-repeat center center #febf10;
+}
+header li a:hover.ttm {
+  background: url(/_assets/img/hover-ttm.png) no-repeat center center #febf10;
+}
+header li a:hover.contact {
+  background: url(/_assets/img/hover-contact.png) no-repeat center center #febf10;
+}
+header #crow {
+  background: url(/_assets/img/crow.png) no-repeat 490px 7px transparent;
+}
+header #crow img {
+  padding: 4px 0 21px 130px;
+}
 /******** END MAIN HEADER AND NAVIGATION STYLES *********/
 /******** START MAIN FOOTER STYLES *********/
 footer {

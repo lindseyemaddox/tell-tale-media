@@ -8,7 +8,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Tell-Tale Media | Nashville, TN</title>
+	<title>tell-tale MEDIA | Nashville, TN</title>
 	<meta name="description" content="something">
 	
 	<!--[if lt IE 8]>

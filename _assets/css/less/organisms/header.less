@@ -2,13 +2,59 @@
 /******** START MAIN HEADER AND NAVIGATION STYLES *********/
 
 
-header.main {
-	nav.main-nav {
-		ul {
-			li{}
-				a {}
+header {
+	background-color: @yellow;
+	div#logo {
+		display: inline-block;
+		vertical-align: top;
+		padding-right: 25px;
+	}
+	div#nav {
+		display: inline-block;
+		vertical-align: top;
+	}
+	li {
+		font-family: verdana, sans-serif;
+		font-size: 1.125em;
+		font-weight: bold;
+		text-transform: uppercase;
+		display: inline-block;
+		margin: 20px 0;
+		a {
+			padding: 0 20px;
+			text-decoration: none;
+			color: #000;
+			background-position: 10px 20px;
+			&:hover {
+				text-decoration: none;
+				background-position: 10px 0px;
+				.transition();
+				&.home {
+					background: url(/_assets/img/hover-home.png) no-repeat center center @yellow;
+				}
+				&.about {
+					background: url(/_assets/img/hover-about.png) no-repeat center center @yellow;
+				}
+				&.film {
+					background: url(/_assets/img/hover-film.png) no-repeat center center @yellow;
+				}
+				&.design {
+					background: url(/_assets/img/hover-design.png) no-repeat center center @yellow;
+				}
+				&.ttm {
+					background: url(/_assets/img/hover-ttm.png) no-repeat center center @yellow;
+				}
+				&.contact {
+					background: url(/_assets/img/hover-contact.png) no-repeat center center @yellow;
+				}
 			}
-		#menu{}
+		}
+	}
+	#crow {
+		background: url(/_assets/img/crow.png) no-repeat 490px 7px transparent;
+		img {
+			padding: 4px 0 21px 130px;
+		}
 	}
 }
 
