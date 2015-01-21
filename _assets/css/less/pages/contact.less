@@ -1,0 +1,66 @@
+section#contact {
+	background-color: #fff;
+	div.container {
+		background-color: @yellow;
+		margin: 16px 0 21px;
+		h1 {
+			background: url(/_assets/img/bg-contact.png) no-repeat center center transparent;
+			text-align: center;
+			color: #fff;
+			margin-bottom: 44px;
+			text-transform: uppercase;
+			font-family: verdana, sans-serif;
+			font-size: 2.25em;
+		}
+		div.socials {
+			text-align: right;
+		}
+		a.social {
+			margin: 24px 12px 0 0;
+			width: 31px;
+			display: inline-block;
+			.transition;
+			img {
+				width: 100%;
+			}
+			&:hover {
+				.rotate(45deg);
+			}
+		}
+	}
+	div.cans {
+		background: url(/_assets/img/bg-cans.png) no-repeat center 90px transparent;
+		padding-bottom: 100px;
+		img {
+			width: 100%;
+			padding-top: 30px;
+		}
+		.info {
+			width: 39%;
+			margin: 0 auto;
+		}
+		article {
+			width: 49.5%;
+			display: inline-block;
+			p {
+				padding: 10px 0 10px 20px;
+				font-family: arial, sans-serif;
+				font-size: 1em;
+				a {
+					color: #000;
+					text-decoration: none;
+					&:hover {
+						color: @yellow;
+						.transition;
+					}
+				}
+			}
+			&:first-child {
+				border-right: 2px solid #000;
+				p {
+
+				}
+			}
+		}
+	}
+}

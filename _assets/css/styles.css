@@ -365,6 +365,19 @@ html {
   font-size: 16px;
 }
 /******** COLOR STYLES *********/
+h1 {
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.1875em;
+  line-height: 1.35em;
+  color: #000;
+}
+h2 {
+  font-family: georgia, sans-serif;
+  font-size: 1em;
+  line-height: 1.35em;
+  color: #000;
+}
 p {
   padding-bottom: 20px;
 }
@@ -374,16 +387,24 @@ p {
 /* (Groups of elements that are used throughout the site.) */
 /******** START MAIN HEADER AND NAVIGATION STYLES *********/
 header {
+  background-color: #fff;
+}
+header div.inner {
   background-color: #febf10;
 }
 header div#logo {
   display: inline-block;
   vertical-align: top;
   padding-right: 25px;
+  width: 42%;
+}
+header div#logo img {
+  width: 100%;
 }
 header div#nav {
   display: inline-block;
   vertical-align: top;
+  width: 57%;
 }
 header li {
   font-family: verdana, sans-serif;
@@ -427,10 +448,11 @@ header li a:hover.contact {
   background: url(/_assets/img/hover-contact.png) no-repeat center center #febf10;
 }
 header #crow {
-  background: url(/_assets/img/crow.png) no-repeat 490px 7px transparent;
+  background: url(/_assets/img/crow.png) no-repeat 84% 7px transparent;
 }
 header #crow img {
   padding: 4px 0 21px 130px;
+  width: 65%;
 }
 /******** END MAIN HEADER AND NAVIGATION STYLES *********/
 /******** START MAIN FOOTER STYLES *********/
@@ -449,6 +471,170 @@ footer p {
 /*================  PAGE STYLES  ================*/
 /*==============================================*/
 /* (Styles for pages with elements occuring in ways specific to the page.) */
+section#typewriter-obsess {
+  background-color: #fff;
+}
+section#typewriter-obsess div.container {
+  background: url(/_assets/img/bg-home.png) no-repeat center 16px transparent;
+  padding-bottom: 21px;
+}
+section#typewriter-obsess div.container img {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+section#typewriter-obsess div.container article {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+section#typewriter-obsess div.container a.social {
+  position: absolute;
+  bottom: 12px;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+section#typewriter-obsess div.container a.social img {
+  width: 100%;
+}
+section#typewriter-obsess div.container a.social:hover {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+section#typewriter-obsess div.container article#typewriter {
+  width: 60%;
+  padding: 83px 0 128px;
+}
+section#typewriter-obsess div.container article#typewriter img {
+  width: 49%;
+}
+section#typewriter-obsess div.container article#typewriter a.facebook {
+  width: 37px;
+  left: 12px;
+}
+section#typewriter-obsess div.container article#typewriter a.instagram {
+  width: 40px;
+  left: 37px;
+}
+section#typewriter-obsess div.container article#obsess {
+  width: 39%;
+  padding: 221px 0 303px;
+}
+section#typewriter-obsess div.container article#obsess img {
+  width: 50%;
+}
+section#typewriter-obsess div.container article#obsess a.vimeo {
+  width: 39px;
+  right: 12px;
+}
+section#about {
+  background-color: #fff;
+}
+section#about div.container {
+  background-color: #febf10;
+  margin: 16px 0 21px;
+}
+section#about div.container img {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+section#about div.container article#desk {
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+  padding: 114px 0 128px;
+}
+section#about div.container article#desk img {
+  width: 94%;
+}
+section#about div.container article#text {
+  display: inline-block;
+  width: 39%;
+  padding: 221px 45px 0 0;
+}
+section#about div.container article#text h1 {
+  padding-bottom: 38px;
+}
+section#contact {
+  background-color: #fff;
+}
+section#contact div.container {
+  background-color: #febf10;
+  margin: 16px 0 21px;
+}
+section#contact div.container h1 {
+  background: url(/_assets/img/bg-contact.png) no-repeat center center transparent;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 44px;
+  text-transform: uppercase;
+  font-family: verdana, sans-serif;
+  font-size: 2.25em;
+}
+section#contact div.container div.socials {
+  text-align: right;
+}
+section#contact div.container a.social {
+  margin: 24px 12px 0 0;
+  width: 31px;
+  display: inline-block;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+section#contact div.container a.social img {
+  width: 100%;
+}
+section#contact div.container a.social:hover {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+section#contact div.cans {
+  background: url(/_assets/img/bg-cans.png) no-repeat center 90px transparent;
+  padding-bottom: 100px;
+}
+section#contact div.cans img {
+  width: 100%;
+  padding-top: 30px;
+}
+section#contact div.cans .info {
+  width: 39%;
+  margin: 0 auto;
+}
+section#contact div.cans article {
+  width: 49.5%;
+  display: inline-block;
+}
+section#contact div.cans article p {
+  padding: 10px 0 10px 20px;
+  font-family: arial, sans-serif;
+  font-size: 1em;
+}
+section#contact div.cans article p a {
+  color: #000;
+  text-decoration: none;
+}
+section#contact div.cans article p a:hover {
+  color: #febf10;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+section#contact div.cans article:first-child {
+  border-right: 2px solid #000;
+}
 /*======================================================*/
 /*================  RESPONSIVE STYLES  ================*/
 /*====================================================*/

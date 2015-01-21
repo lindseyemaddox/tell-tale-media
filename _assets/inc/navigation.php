@@ -17,7 +17,7 @@
 
 					<ul>
 						<li><a href="/" class="home">Home</a></li>
-						<li><a href="/about" class="about">About Us</a></li>
+						<li><a href="/about-us" class="about">About Us</a></li>
 						<li><a href="/film" class="film">Film</a></li>
 						<li><a href="/design" class="design">Design</a></li>
 						<li><a href="/ttm" class="ttm">#tt_m</a></li>
@@ -27,14 +27,3 @@
 				</nav>
 
 				<div id="crow">
-					
-					<img src="/_assets/img/quote-home.png" alt="What Tale Do You Want To Tell?">
-
-				</div><!--crow-->
-
-			</div><!--nav-->
-
-		</div><!--inner-->
-
-	</header>
-
