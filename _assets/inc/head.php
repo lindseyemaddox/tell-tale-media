@@ -8,8 +8,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>tell-tale MEDIA | Nashville, TN</title>
-	<meta name="description" content="something">
 	
 	<!--[if lt IE 8]>
 	    <p class="browsehappy">You are using an outdated browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your experience.</p>

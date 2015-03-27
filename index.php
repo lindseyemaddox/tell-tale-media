@@ -1,4 +1,6 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
+<title>tell-tale MEDIA | Nashville, TN</title>
+<meta name="description" content="tell-tale MEDIA is a creative house specializing in the visionary arts of film and design.">
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
 				<img src="/_assets/img/quote-home.png" alt="What Tale Do You Want To Tell?">
@@ -21,9 +23,9 @@
 			
 				<img src="/_assets/img/typewriter.png" alt="It is impossible to say how first the idea entered my brain; but once conceived, it haunted me day and night. -Edgar Allen Poe">
 
-				<a class="social facebook" href="#"><img src="/_assets/img/icon-facebook.png" alt="Facebook icon"/></a>
+				<a class="social facebook" href="#" target="_blank" rel="nofollow"><img src="/_assets/img/icon-facebook.png" alt="Facebook icon"/></a>
 
-				<a class="social instagram" href="#"><img src="/_assets/img/icon-instagram.png" alt="Instagram icon"/></a>
+				<a class="social instagram" href="#" target="_blank" rel="nofollow"><img src="/_assets/img/icon-instagram.png" alt="Instagram icon"/></a>
 
 			</article><!--typewriter-->
 
@@ -31,7 +33,7 @@
 			
 				<img src="/_assets/img/type-obsess.png" alt="Give us your ideas and we'll obsess about them for you.">
 
-				<a class="social vimeo" href="#"><img src="/_assets/img/icon-vimeo.png" alt="Vimeo icon"/></a>
+				<a class="social vimeo" href="https://vimeo.com/ttmnashville" target="_blank" rel="nofollow"><img src="/_assets/img/icon-vimeo.png" alt="Vimeo icon"/></a>
 
 			</article><!--obsess-->
 

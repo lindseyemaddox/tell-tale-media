@@ -1,4 +1,6 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
+<title>Contact Us | tell-tale MEDIA | Nashville, TN</title>
+<meta name="description" content="Contact tell-tale MEDIA and we’ll help turn your dreams into reality.">
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
 				<img src="/_assets/img/quote-contact.png" alt="Excuse Me, I Have to Take This Call...">
@@ -19,11 +21,11 @@
 
 			<div class="socials">
 
-				<a class="social facebook" href="#"><img src="/_assets/img/icon-facebook.png" alt="Facebook icon"/></a>
+				<a class="social facebook" href="#" target="_blank" rel="nofollow"><img src="/_assets/img/icon-facebook.png" alt="Facebook icon"/></a>
 
-				<a class="social vimeo" href="#"><img src="/_assets/img/icon-vimeo-k.png" alt="Vimeo icon"/></a>
+				<a class="social vimeo" href="https://vimeo.com/ttmnashville" target="_blank" rel="nofollow"><img src="/_assets/img/icon-vimeo-k.png" alt="Vimeo icon"/></a>
 
-				<a class="social instagram" href="#"><img src="/_assets/img/icon-instagram.png" alt="Instagram icon"/></a>
+				<a class="social instagram" href="#" target="_blank" rel="nofollow"><img src="/_assets/img/icon-instagram.png" alt="Instagram icon"/></a>
 
 			</div><!--socials-->
 

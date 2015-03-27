@@ -1,0 +1,45 @@
+section#film {
+	background-color: #fff;
+	div.container {
+		background-color: @yellow;
+		margin: 16px 0 21px;
+		img {
+			text-align: center;
+			margin: 0 auto;
+			display: block;
+		}
+		article#text {
+			display: inline-block;
+			vertical-align: bottom;
+			width: 20%;
+			padding: 0 0 0 37px;
+			h1 {
+				padding-bottom: 8px;
+			}
+			h2 {
+				padding-bottom: 50px;
+				a {
+					text-decoration: none;
+					color: #fff;
+					&:hover {
+						color: @black;
+						.transition;
+					}
+				}
+			}
+		}
+		article#portal {
+			display: inline-block;
+			width: 59%;
+			margin: 0 20% 0 0;
+			background: url(/_assets/img/film.png) no-repeat center center transparent;
+			img {
+				padding: 300px 0 250px;
+				&:hover {
+					.rotate(360deg);
+					.transition;
+				}
+			}
+		}
+	}
+}

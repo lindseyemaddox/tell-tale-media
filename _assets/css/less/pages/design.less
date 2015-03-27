@@ -1,0 +1,48 @@
+section#design {
+	background-color: #fff;
+	div.container {
+		background-color: @yellow;
+		margin: 16px 0 21px;
+		img {
+			text-align: center;
+			margin: 0 auto;
+			display: block;
+		}
+		div#options {
+			width: 100%;
+			padding: 30px 0 40px;
+			ul#filters {
+				text-align: center;
+				li {
+					display: inline-block;
+					padding: 0 2%;
+					font-family: arial, sans-serif;
+					font-weight: bold;
+					font-size: 1.1875em;
+					line-height: 1.35em;
+					a {
+						color: @black;
+						text-decoration: none;
+						&:hover {
+							color: #fff;
+							.transition;
+						}
+					}
+				}
+			}
+			div.hidden {
+				display: none;
+			}
+		}
+		div#design-container {
+			width: 100%;
+			article.piece {
+				width: 22%;
+				margin: 0 5.5% 145px 5.5%;
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+}

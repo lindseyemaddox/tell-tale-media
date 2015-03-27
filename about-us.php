@@ -1,4 +1,6 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
+<title>About Us | tell-tale MEDIA | Nashville, TN</title>
+<meta name="description" content="tell-tale MEDIA is a Nashville based company that specializes in the creation of all things graphic design and film related.">
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
 				<img src="/_assets/img/quote-about.png" alt="We Take Our Work Very Seriously.">
