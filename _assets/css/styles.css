@@ -364,6 +364,9 @@ body {
 html {
   font-size: 16px;
 }
+body {
+  font-size: 1rem;
+}
 /******** COLOR STYLES *********/
 h1 {
   font-family: arial, sans-serif;
@@ -405,6 +408,9 @@ header div#nav {
   display: inline-block;
   vertical-align: top;
   width: 57%;
+}
+header a#showMenu {
+  display: none;
 }
 header li {
   font-family: verdana, sans-serif;
@@ -768,7 +774,8 @@ section#typewriter-obsess {
 }
 section#typewriter-obsess div.container {
   background: url(/_assets/img/bg-home.png) no-repeat center 16px transparent;
-  padding-bottom: 21px;
+  margin-bottom: 21px;
+  position: relative;
 }
 section#typewriter-obsess div.container img {
   text-align: center;
@@ -778,7 +785,6 @@ section#typewriter-obsess div.container img {
 section#typewriter-obsess div.container article {
   display: inline-block;
   vertical-align: top;
-  position: relative;
 }
 section#typewriter-obsess div.container a.social {
   position: absolute;
@@ -1040,8 +1046,76 @@ section#design div.container div#design-container article.piece img {
 /*====================================================*/
 /*Contains ALL responsive code. Must be imported last so that it is the last css read.*/
 /*************RESPONSIVE CODE*****************/
+@media screen and (max-width: 1300px) {
+  html {
+    font-size: 15.5px;
+  }
+  header li {
+    font-size: 1em;
+  }
+}
 @media screen and (max-width: 1200px) {
   html {
+    font-size: 15px;
+  }
+  header li a {
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  html {
+    font-size: 14.5px;
+  }
+  section#typewriter-obsess div.container article#typewriter {
+    padding-top: 150px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  html {
     font-size: 14px;
+  }
+  header li a {
+    padding: 0 11px;
+  }
+  section#typewriter-obsess div.container article#typewriter {
+    width: 65%;
+  }
+  section#typewriter-obsess div.container article#obsess {
+    width: 34%;
+  }
+}
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 13.5px;
+  }
+  header nav {
+    height: 0;
+    overflow: hidden;
+  }
+  header nav.expand {
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 1;
+    padding: 60px 50px 30px 20px;
+  }
+  header nav.expand li {
+    display: block;
+  }
+  header nav.expand li a:hover {
+    background: transparent;
+    color: #febf10;
+  }
+  header a#showMenu {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 2;
+  }
+  header #crow {
+    margin-top: 43px;
   }
 }

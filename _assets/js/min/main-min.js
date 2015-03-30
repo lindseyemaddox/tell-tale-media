@@ -1,0 +1,1 @@
+function firstLoad(){initVars(),showMenu()}function initVars(){$nav=$("nav"),$showMenu=$("a#showMenu")}function showMenu(){$showMenu.click(function(){return $nav.hasClass("expand")?menuOut():menuIn(),!1})}function menuOut(){$nav.removeClass("expand")}function menuIn(){$nav.addClass("expand")}var $showMenu;$(function(){firstLoad()});

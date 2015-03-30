@@ -21,7 +21,7 @@
 
 			<div class="socials">
 
-				<a class="social facebook" href="#" target="_blank" rel="nofollow"><img src="/_assets/img/icon-facebook.png" alt="Facebook icon"/></a>
+				<a class="social facebook" href="https://www.facebook.com/pages/Tell-tale-Media/402897546389144?ref=hl" target="_blank" rel="nofollow"><img src="/_assets/img/icon-facebook.png" alt="Facebook icon"/></a>
 
 				<a class="social vimeo" href="https://vimeo.com/ttmnashville" target="_blank" rel="nofollow"><img src="/_assets/img/icon-vimeo-k.png" alt="Vimeo icon"/></a>
 
@@ -39,7 +39,7 @@
 				
 					<article>
 						
-						<p class="phone">Phone: <a href="tel:15555555555">XXX.XXX.XXXX</a><br />
+						<p class="phone">Phone: <a href="tel:16154687669">(615) 468-7669</a><br />
 						<span class="email">Email: <a href="mailto:info@ttmnashville.com">info@ttmnashville.com</a></span></p>
 
 					</article>

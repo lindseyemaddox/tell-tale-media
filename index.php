@@ -23,7 +23,7 @@
 			
 				<img src="/_assets/img/typewriter.png" alt="It is impossible to say how first the idea entered my brain; but once conceived, it haunted me day and night. -Edgar Allen Poe">
 
-				<a class="social facebook" href="#" target="_blank" rel="nofollow"><img src="/_assets/img/icon-facebook.png" alt="Facebook icon"/></a>
+				<a class="social facebook" href="https://www.facebook.com/pages/Tell-tale-Media/402897546389144?ref=hl" target="_blank" rel="nofollow"><img src="/_assets/img/icon-facebook.png" alt="Facebook icon"/></a>
 
 				<a class="social instagram" href="#" target="_blank" rel="nofollow"><img src="/_assets/img/icon-instagram.png" alt="Instagram icon"/></a>
 

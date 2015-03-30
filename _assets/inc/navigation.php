@@ -26,4 +26,6 @@
 
 				</nav>
 
+				<a href="#" id="showMenu"><img src="/_assets/img/menu.png"></a>
+
 				<div id="crow">
