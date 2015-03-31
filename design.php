@@ -44,7 +44,7 @@
 		    <div id="design-container" class="clearfix">
 
 		      	<article class="piece websites">
-		      		<a href="/_assets/img/portfolio-website-hudson.jpg" class="fancybox" rel="websites"><img src="/_assets/img/thumb-website-hudson.jpg" alt="Bill Hudson Agency website" title="Bill Hudson Agency website"></a>
+		      		<a href="/_assets/img/portfolio-website-hudson.jpg" class="fancybox" rel="websites"><img src="/_assets/img/thumb-website-hudson.jpg" alt="web design for the Bill Hudson Agency" title="web design for the Bill Hudson Agency"></a>
 		      	</article>
 
 		      	<article class="piece posters">
