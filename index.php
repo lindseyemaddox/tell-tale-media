@@ -25,7 +25,7 @@
 
 				<a class="social facebook" href="https://www.facebook.com/pages/Tell-tale-Media/402897546389144?ref=hl" target="_blank" rel="nofollow"><img src="/_assets/img/icon-facebook.png" alt="Facebook icon"/></a>
 
-				<a class="social instagram" href="#" target="_blank" rel="nofollow"><img src="/_assets/img/icon-instagram.png" alt="Instagram icon"/></a>
+				<a class="social instagram" href="https://instagram.com/telltale_media/" target="_blank" rel="nofollow"><img src="/_assets/img/icon-instagram.png" alt="Instagram icon"/></a>
 
 			</article><!--typewriter-->
 

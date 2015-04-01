@@ -25,7 +25,7 @@
 
 				<a class="social vimeo" href="https://vimeo.com/ttmnashville" target="_blank" rel="nofollow"><img src="/_assets/img/icon-vimeo-k.png" alt="Vimeo icon"/></a>
 
-				<a class="social instagram" href="#" target="_blank" rel="nofollow"><img src="/_assets/img/icon-instagram.png" alt="Instagram icon"/></a>
+				<a class="social instagram" href="https://instagram.com/telltale_media/" target="_blank" rel="nofollow"><img src="/_assets/img/icon-instagram.png" alt="Instagram icon"/></a>
 
 			</div><!--socials-->
 

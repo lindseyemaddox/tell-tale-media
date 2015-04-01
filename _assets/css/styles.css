@@ -454,7 +454,8 @@ header li a:hover.contact {
   background: url(/_assets/img/hover-contact.png) no-repeat center center #febf10;
 }
 header #crow {
-  background: url(/_assets/img/crow.png) no-repeat 84% 7px transparent;
+  background: url(/_assets/img/crow.png) no-repeat 84% bottom transparent;
+  min-height: 155px;
 }
 header #crow img {
   padding: 4px 0 21px 130px;
@@ -948,7 +949,7 @@ section#film div.container img {
 section#film div.container article#text {
   display: inline-block;
   vertical-align: bottom;
-  width: 20%;
+  width: 27%;
   padding: 0 0 0 37px;
 }
 section#film div.container article#text h1 {
@@ -971,7 +972,7 @@ section#film div.container article#text h2 a:hover {
 }
 section#film div.container article#portal {
   display: inline-block;
-  width: 59%;
+  width: 46%;
   margin: 0 20% 0 0;
   background: url(/_assets/img/film.png) no-repeat center center transparent;
   background-size: contain;
@@ -1082,6 +1083,9 @@ section#design div.container div#design-container article.piece img {
   section#contact div.cans {
     background-position: center 40px;
   }
+  header #crow img {
+    padding: 4px 30px 21px 100px;
+  }
 }
 @media screen and (max-width: 1000px) {
   html {
@@ -1102,6 +1106,9 @@ section#design div.container div#design-container article.piece img {
   section#about div.container article#desk {
     padding: 64px 0 70px;
   }
+  header #crow img {
+    width: 60%;
+  }
 }
 @media screen and (max-width: 900px) {
   html {
@@ -1121,6 +1128,7 @@ section#design div.container div#design-container article.piece img {
     padding: 70px 50px 10px 20px;
     border-left: 7px solid #000000;
     border-bottom: 7px solid #000000;
+    z-index: 3;
   }
   header nav.expand li {
     display: block;
@@ -1135,10 +1143,14 @@ section#design div.container div#design-container article.piece img {
     position: absolute;
     right: 10px;
     top: 10px;
-    z-index: 2;
+    z-index: 4;
   }
   header #crow {
-    margin-top: 43px;
+    margin-top: 0;
+    min-height: 125px;
+  }
+  header #crow img {
+    padding: 40px 30px 50px 100px;
   }
   section#film div.container article#portal img {
     padding: 220px 0px 190px;
@@ -1190,7 +1202,7 @@ section#design div.container div#design-container article.piece img {
   }
   header #crow {
     margin-top: 40px;
-    background-position: 85% 7px;
+    background-position: 85% bottom;
   }
   header #crow img {
     padding: 22px 0px 20px 80px;
@@ -1278,11 +1290,18 @@ section#design div.container div#design-container article.piece img {
     background-position: center 100px;
     padding-bottom: 60px;
   }
+  header #crow {
+    margin-top: 0;
+  }
+  header #crow img {
+    padding: 60px 0px 40px 50px;
+    width: 50%;
+  }
 }
 @media screen and (max-width: 400px) {
   header #crow {
     margin-top: 10px;
-    background-position: 105% 3px;
+    background-position: 105% bottom;
   }
   header #crow img {
     width: 80%;

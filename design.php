@@ -6,6 +6,16 @@
 <script type="text/javascript">
   $(document).ready(function() {
     $('.fancybox').fancybox();
+			$(".fancybox-effects-a").fancybox({
+				helpers: {
+					title : {
+						type : 'outside'
+					},
+					overlay : {
+						speedOut : 0
+					}
+				}
+			});
   });
 </script>
 <script src="/_assets/js/jquery.fancybox.js"></script>
@@ -44,51 +54,51 @@
 		    <div id="design-container" class="clearfix">
 
 		      	<article class="piece websites">
-		      		<a href="/_assets/img/portfolio-website-hudson.jpg" class="fancybox" rel="websites"><img src="/_assets/img/thumb-website-hudson.jpg" alt="web design for the Bill Hudson Agency" title="web design for the Bill Hudson Agency"></a>
+		      		<a href="/_assets/img/portfolio-website-hudson.jpg" class="fancybox" rel="websites" title="Web design for the Bill Hudson Agency"><img src="/_assets/img/thumb-website-hudson.jpg" alt="web design for the Bill Hudson Agency"></a>
 		      	</article>
 
 		      	<article class="piece posters">
-		      		<a href="/_assets/img/portfolio-poster-duty.jpg" class="fancybox"><img src="/_assets/img/thumb-poster-duty.jpg" alt="Duty of the Hour poster" title="Duty of the Hour poster"></a>
+		      		<a href="/_assets/img/portfolio-poster-duty.jpg" class="fancybox" title="Duty of the Hour poster"><img src="/_assets/img/thumb-poster-duty.jpg" alt="Duty of the Hour poster"></a>
 		      	</article>
 
 		      	<article class="piece branding">
-		      		<a href="/_assets/img/portfolio-branding-vintage.jpg" class="fancybox"><img src="/_assets/img/thumb-branding-vintage.jpg" alt="Village Vintage and Homegoods logo" title="Village Vintage and Homegoods logo"></a>
+		      		<a href="/_assets/img/portfolio-branding-vintage.jpg" class="fancybox" title="Village Vintage and Homegoods logo"><img src="/_assets/img/thumb-branding-vintage.jpg" alt="Village Vintage and Homegoods logo"></a>
 		      	</article>
 
 		      	<article class="piece brochures">
-		      		<a href="/_assets/img/portfolio-brochure-nutcracker.jpg" class="fancybox"><img src="/_assets/img/thumb-brochure-nutcracker.jpg" alt="Mini-Nutcracker brochure" title="Mini-Nutcracker brochure"></a>
+		      		<a href="/_assets/img/portfolio-brochure-nutcracker.jpg" class="fancybox" title="Mini-Nutcracker brochure"><img src="/_assets/img/thumb-brochure-nutcracker.jpg" alt="Mini-Nutcracker brochure"></a>
 		      	</article>
 
 		      	<article class="piece brochures">
-		      		<a href="/_assets/img/portfolio-brochure-push.jpg" class="fancybox"><img src="/_assets/img/thumb-brochure-push.jpg" alt="Push Childbirth Education brochure" title="Push Childbirth Education brochure"></a>
+		      		<a href="/_assets/img/portfolio-brochure-push.jpg" class="fancybox" title="Push Childbirth Education brochure"><img src="/_assets/img/thumb-brochure-push.jpg" alt="Push Childbirth Education brochure"></a>
 		      	</article>
 
 		      	<article class="piece websites">
-		      		<a href="/_assets/img/portfolio-website-rosepepper.jpg" class="fancybox"><img src="/_assets/img/thumb-website-rosepepper.jpg" alt="Rosepepper Cantina website" title="Rosepepper Cantina website"></a>
+		      		<a href="/_assets/img/portfolio-website-rosepepper.jpg" class="fancybox" title="Rosepepper Cantina website"><img src="/_assets/img/thumb-website-rosepepper.jpg" alt="Rosepepper Cantina website"></a>
 		      	</article>
 
 		      	<article class="piece branding">
-		      		<a href="/_assets/img/portfolio-logo-pure.jpg" class="fancybox"><img src="/_assets/img/thumb-logo-pure.jpg" alt="Pure Body Revolution logo" title="Pure Body Revolution logo"></a>
+		      		<a href="/_assets/img/portfolio-logo-pure.jpg" class="fancybox" title="Pure Body Revolution logo"><img src="/_assets/img/thumb-logo-pure.jpg" alt="Pure Body Revolution logo"></a>
 		      	</article>
 
 		      	<article class="piece websites">
-		      		<a href="/_assets/img/portfolio-website-ceramics.jpg" class="fancybox"><img src="/_assets/img/thumb-website-ceramics.jpg" alt="Mid-South Ceramics website" title="Mid-South Ceramics website"></a>
+		      		<a href="/_assets/img/portfolio-website-ceramics.jpg" class="fancybox" title="Mid-South Ceramics website"><img src="/_assets/img/thumb-website-ceramics.jpg" alt="Mid-South Ceramics website"></a>
 		      	</article>
 
 		      	<article class="piece t-shirts">
-		      		<a href="/_assets/img/portfolio-shirt-travis.jpg" class="fancybox"><img src="/_assets/img/thumb-shirt-travis.jpg" alt="Travis Meadows t-shirt" title="Travis Meadows t-shirt"></a>
+		      		<a href="/_assets/img/portfolio-shirt-travis.jpg" class="fancybox" title="Travis Meadows t-shirt"><img src="/_assets/img/thumb-shirt-travis.jpg" alt="Travis Meadows t-shirt"></a>
 		      	</article>
 
 		      	<article class="piece packaging">
-		      		<a href="/_assets/img/portfolio-cd-travis.jpg" class="fancybox"><img src="/_assets/img/thumb-cd-travis.jpg" alt="Travis Meadows cd" title="Travis Meadows cd"></a>
+		      		<a href="/_assets/img/portfolio-cd-travis.jpg" class="fancybox" title="Travis Meadows cd"><img src="/_assets/img/thumb-cd-travis.jpg" alt="Travis Meadows cd"></a>
 		      	</article>
 
 		      	<article class="piece posters">
-		      		<a href="/_assets/img/portfolio-poster-country.jpg" class="fancybox"><img src="/_assets/img/thumb-poster-country.jpg" alt="Good Country People Party poster" title="Good Country People Party poster"></a>
+		      		<a href="/_assets/img/portfolio-poster-country.jpg" class="fancybox" title="Good Country People Party poster"><img src="/_assets/img/thumb-poster-country.jpg" alt="Good Country People Party poster"></a>
 		      	</article>
 
 		      	<article class="piece branding">
-		      		<a href="/_assets/img/portfolio-logo-hands.jpg" class="fancybox"><img src="/_assets/img/thumb-logo-hands.jpg" alt="Hands 4 NY logo" title="Hands 4 NY logo"></a>
+		      		<a href="/_assets/img/portfolio-logo-hands.jpg" class="fancybox" title="Hands 4 NY logo"><img src="/_assets/img/thumb-logo-hands.jpg" alt="Hands 4 NY logo"></a>
 		      	</article>
 
 		      	<article class="piece websites posters branding brochures t-shirts packaging">
