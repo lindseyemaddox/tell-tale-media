@@ -394,6 +394,7 @@ header {
 }
 header div.inner {
   background-color: #febf10;
+  position: relative;
 }
 header div#logo {
   display: inline-block;
@@ -408,6 +409,9 @@ header div#nav {
   display: inline-block;
   vertical-align: top;
   width: 57%;
+  position: absolute;
+  bottom: 0;
+  top: 0;
 }
 header a#showMenu {
   display: none;
@@ -455,7 +459,7 @@ header li a:hover.contact {
 }
 header #crow {
   background: url(/_assets/img/crow.png) no-repeat 84% bottom transparent;
-  min-height: 155px;
+  min-height: 166px;
 }
 header #crow img {
   padding: 4px 0 21px 130px;
@@ -1055,6 +1059,12 @@ section#design div.container div#design-container article.piece img {
   header li {
     font-size: 1em;
   }
+  header div#nav {
+    overflow: hidden;
+  }
+  header #crow img {
+    padding-bottom: 30px;
+  }
 }
 @media screen and (max-width: 1200px) {
   html {
@@ -1062,6 +1072,10 @@ section#design div.container div#design-container article.piece img {
   }
   header li a {
     padding: 0 15px;
+  }
+  header #crow {
+    min-height: 135px;
+    background-position: 84% 0;
   }
   section#design div.container div#design-container article.piece {
     margin-bottom: 115px;
@@ -1082,6 +1096,9 @@ section#design div.container div#design-container article.piece img {
   }
   section#contact div.cans {
     background-position: center 40px;
+  }
+  header #crow {
+    min-height: 115px;
   }
   header #crow img {
     padding: 4px 30px 21px 100px;
@@ -1106,8 +1123,14 @@ section#design div.container div#design-container article.piece img {
   section#about div.container article#desk {
     padding: 64px 0 70px;
   }
+  header #crow {
+    min-height: auto;
+    background-size: 20%;
+    background-position: 72% 10px;
+  }
   header #crow img {
     width: 60%;
+    padding-bottom: 30px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -1147,7 +1170,8 @@ section#design div.container div#design-container article.piece img {
   }
   header #crow {
     margin-top: 0;
-    min-height: 125px;
+    background-size: 25%;
+    background-position: 72% 30px;
   }
   header #crow img {
     padding: 40px 30px 50px 100px;
@@ -1172,10 +1196,10 @@ section#design div.container div#design-container article.piece img {
   }
   header #crow {
     margin-top: 10px;
-    background-position: 74% 7px;
+    background-position: 74% 17px;
   }
   header #crow img {
-    padding: 32px 60px 11px 20px;
+    padding: 32px 60px 20px 20px;
     width: 60%;
   }
   section#typewriter-obsess div.container article#typewriter {
@@ -1199,6 +1223,7 @@ section#design div.container div#design-container article.piece img {
   }
   header div#nav {
     width: 100%;
+    position: static;
   }
   header #crow {
     margin-top: 40px;
@@ -1292,6 +1317,7 @@ section#design div.container div#design-container article.piece img {
   }
   header #crow {
     margin-top: 0;
+    background-size: 30%;
   }
   header #crow img {
     padding: 60px 0px 40px 50px;
@@ -1301,7 +1327,7 @@ section#design div.container div#design-container article.piece img {
 @media screen and (max-width: 400px) {
   header #crow {
     margin-top: 10px;
-    background-position: 105% bottom;
+    background-size: 40%;
   }
   header #crow img {
     width: 80%;
