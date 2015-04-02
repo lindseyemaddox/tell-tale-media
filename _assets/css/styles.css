@@ -412,6 +412,7 @@ header div#nav {
   position: absolute;
   bottom: 0;
   top: 0;
+  overflow: hidden;
 }
 header a#showMenu {
   display: none;
@@ -462,7 +463,7 @@ header #crow {
   min-height: 166px;
 }
 header #crow img {
-  padding: 4px 0 21px 130px;
+  padding: 4px 0 0px 130px;
   width: 65%;
 }
 /******** START MAIN FOOTER STYLES *********/
@@ -1039,10 +1040,12 @@ section#design div.container div#options div.hidden {
 }
 section#design div.container div#design-container {
   width: 100%;
+  padding-top: 80px;
 }
 section#design div.container div#design-container article.piece {
   width: 22%;
   margin: 0 5.5% 145px 5.5%;
+  display: inline-block;
 }
 section#design div.container div#design-container article.piece img {
   width: 100%;
@@ -1058,12 +1061,6 @@ section#design div.container div#design-container article.piece img {
   }
   header li {
     font-size: 1em;
-  }
-  header div#nav {
-    overflow: hidden;
-  }
-  header #crow img {
-    padding-bottom: 30px;
   }
 }
 @media screen and (max-width: 1200px) {
