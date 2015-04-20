@@ -27,6 +27,8 @@
 
 				<a class="social instagram" href="https://instagram.com/telltale_media/" target="_blank" rel="nofollow"><img src="/_assets/img/icon-instagram.png" alt="Instagram icon"/></a>
 
+				<a class="social twitter" href="https://twitter.com/telltale_MEDIA" target="_blank" rel="nofollow"><img src="/_assets/img/icon-twitter.png" alt="Twitter icon"/></a>
+
 			</article><!--typewriter-->
 
 			<article id="obsess">

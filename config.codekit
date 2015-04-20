@@ -500,6 +500,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/icon-twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2602,
+		"inputAbbreviatedPath": "\/_assets\/img\/icon-twitter.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/icon-twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/icon-vimeo-k.png": {
 		"fileType": 32768,
 		"ignore": 0,

@@ -426,7 +426,7 @@ header li {
   margin: 20px 0;
 }
 header li a {
-  padding: 0 20px;
+  padding: 0 18px;
   text-decoration: none;
   color: #000;
   background-position: 10px 20px;
@@ -825,6 +825,10 @@ section#typewriter-obsess div.container article#typewriter a.instagram {
   width: 40px;
   left: 37px;
 }
+section#typewriter-obsess div.container article#typewriter a.twitter {
+  width: 40px;
+  left: 65px;
+}
 section#typewriter-obsess div.container article#obsess {
   width: 39%;
   padding: 221px 0 303px;
@@ -1068,7 +1072,7 @@ section#design div.container div#design-container article.piece img {
     font-size: 15px;
   }
   header li a {
-    padding: 0 15px;
+    padding: 0 12px;
   }
   header #crow {
     min-height: 135px;
@@ -1106,7 +1110,7 @@ section#design div.container div#design-container article.piece img {
     font-size: 14px;
   }
   header li a {
-    padding: 0 11px;
+    padding: 0 9px;
   }
   section#typewriter-obsess div.container article#typewriter {
     width: 65%;
@@ -1157,6 +1161,10 @@ section#design div.container div#design-container article.piece img {
   header nav.expand li a:hover {
     background: transparent;
     color: #febf10;
+  }
+  header div#nav {
+    overflow: visible;
+    right: 0;
   }
   header a#showMenu {
     display: block;
