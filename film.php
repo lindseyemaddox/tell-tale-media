@@ -19,6 +19,12 @@
 
 		<div class="container">
 
+			<article id="portal">
+			
+				<iframe src="https://player.vimeo.com/video/134905354" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			
+			</article><!--portal-->
+
 			<article id="text">
 
 				<h1>The new reel is being updated and will be up soon.</h1>
@@ -26,12 +32,6 @@
 				<h2>Until then, please visit our <a href="https://vimeo.com/ttmnashville" target="_blank">Vimeo site</a> to see some of our latest endeavors.</h2>
 
 			</article><!--text-->
-
-			<article id="portal">
-			
-				<a href="https://vimeo.com/ttmnashville" target="_blank"><img src="/_assets/img/play.png" alt="Please visit our Vimeo page."></a>
-
-			</article><!--portal-->
 
 		</div><!--container-->
 
