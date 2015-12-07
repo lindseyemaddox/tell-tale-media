@@ -10,6 +10,9 @@
 	header li {
 		font-size: 1em;
 	}
+	.piece .btn {
+		font-size: .5em;
+	}
 }
 
 @media screen and (max-width: 1200px) {
@@ -25,6 +28,9 @@
 	}
 	section#design div.container div#design-container article.piece {
 		margin-bottom: 115px;
+	}
+	h3 {
+		line-height: 1.3em;
 	}
 }
 
@@ -49,6 +55,41 @@
 	}
 	header #crow img {
 		padding: 4px 30px 21px 100px;
+	}
+
+}
+
+@media screen and (max-width: 1024px) {
+	section#design div.container div#design-container article.piece {
+		background-color: transparent;
+		width: 38%;
+		&:hover img {
+			opacity: 1;
+		}
+		img {
+			width: 49%;
+			display: inline-block;
+			margin-right: 2%;
+		}
+		.hover {
+			display: inline-block;
+			opacity: 1;
+			width: 47%;
+			height: auto;
+			position: static;
+			padding: 0;
+			vertical-align: top;
+			h3 {
+				text-align: left;
+				color: #000;
+			}
+		}
+		.btns {
+			position: static;
+			width: auto;
+			text-align: left;
+			margin-top: 20px;
+		}
 	}
 }
 
@@ -134,9 +175,18 @@
 	section#film div.container article#portal img {
 		padding: 220px 0px 190px;
 	}
+	section#design div.container div#design-container {
+		width: 80%;
+		margin: 0 auto;
+	}
 	section#design div.container div#design-container article.piece {
-		width: 28%;
-		margin: 0 2.5% 40px;
+		width: 89%;
+		img {
+			width: 20%;
+		}
+		.hover {
+			width: 76%;
+		}
 	}
 	section#contact div.cans {
 		background-position: center 0;
@@ -252,14 +302,14 @@
 	section#contact div.container h1 {
 		margin-top: 20px;
 	}
+	section#design div.container div#design-container {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 500px) {
 	section#typewriter-obsess div.container article#obsess {
 		padding: 70px 0 80px;
-	}
-	section#design div.container div#design-container article.piece {
-		margin-bottom: 20px;
 	}
 	section#contact div.cans article p span.email {
 		margin-top: 20px;
@@ -290,10 +340,6 @@
 	header #crow img {
 		width: 80%;
 		padding: 50px 100px 40px 10px;
-	}
-	section#design div.container div#design-container article.piece {
-		width: 90%;
-		margin: 0 5% 20px;
 	}
 }
 

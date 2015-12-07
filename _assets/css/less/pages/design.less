@@ -41,8 +41,34 @@ section#design {
 				width: 22%;
 				margin: 0 5.5% 145px 5.5%;
 				display: inline-block;
+				background-color: #000;
+				position: relative;
 				img {
 					width: 100%;
+				}
+				&:hover {
+					img {
+						opacity: .4;
+					}
+					.hover {
+						opacity: 1;
+						height: 100%;
+					}
+				}
+				.hover {
+					opacity: 0;
+					height: 0;
+					position: absolute;
+					top: 0;
+					left: 0;
+					padding: 10%;
+					.transition;
+				}
+				.btns {
+					position: absolute;
+					bottom: 10%;
+					width: 80%;
+					text-align: center;
 				}
 			}
 		}
