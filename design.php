@@ -341,11 +341,8 @@
 
 		      	</article>
 
-
-
-
 		      	<article class="piece websites posters branding brochures t-shirts packaging">
-		      		<img src="/_assets/img/thumb-your-work.jpg" alt="your work here" title="your work here">
+		      		<a href="contact.php"><img src="/_assets/img/thumb-your-work.jpg" alt="your work here" title="your work here"></a>
 		      	</article>
 
 		    </div><!--design-container-->
