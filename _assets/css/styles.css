@@ -381,8 +381,46 @@ h2 {
   line-height: 1.35em;
   color: #000;
 }
+h3 {
+  font-family: georgia, sans-serif;
+  font-size: .8em;
+  line-height: 1.5em;
+  color: #fff;
+  text-align: center;
+}
 p {
   padding-bottom: 20px;
+}
+.btn {
+  border: 2px solid #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-family: arial, sans-serif;
+  font-size: .7em;
+  line-height: 2em;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #fff;
+  text-decoration: none;
+  padding: 7px;
+  text-align: center;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+.btn.two {
+  width: 47%;
+  margin-right: 3%;
+}
+.btn.two:last-child {
+  margin-right: 0;
 }
 /*=================================================*/
 /*================ ORGANIC STYLES ================*/
@@ -1048,9 +1086,37 @@ section#design div.container div#design-container article.piece {
   width: 22%;
   margin: 0 5.5% 145px 5.5%;
   display: inline-block;
+  background-color: #000;
+  position: relative;
 }
 section#design div.container div#design-container article.piece img {
   width: 100%;
+}
+section#design div.container div#design-container article.piece:hover img {
+  opacity: .4;
+}
+section#design div.container div#design-container article.piece:hover .hover {
+  opacity: 1;
+  height: 100%;
+}
+section#design div.container div#design-container article.piece .hover {
+  opacity: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10%;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+section#design div.container div#design-container article.piece .btns {
+  position: absolute;
+  bottom: 10%;
+  width: 80%;
+  text-align: center;
 }
 /*======================================================*/
 /*================  RESPONSIVE STYLES  ================*/
@@ -1063,6 +1129,9 @@ section#design div.container div#design-container article.piece img {
   }
   header li {
     font-size: 1em;
+  }
+  .piece .btn {
+    font-size: .5em;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -1078,6 +1147,9 @@ section#design div.container div#design-container article.piece img {
   }
   section#design div.container div#design-container article.piece {
     margin-bottom: 115px;
+  }
+  h3 {
+    line-height: 1.3em;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -1101,6 +1173,39 @@ section#design div.container div#design-container article.piece img {
   }
   header #crow img {
     padding: 4px 30px 21px 100px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  section#design div.container div#design-container article.piece {
+    background-color: transparent;
+    width: 38%;
+  }
+  section#design div.container div#design-container article.piece:hover img {
+    opacity: 1;
+  }
+  section#design div.container div#design-container article.piece img {
+    width: 49%;
+    display: inline-block;
+    margin-right: 2%;
+  }
+  section#design div.container div#design-container article.piece .hover {
+    display: inline-block;
+    opacity: 1;
+    width: 47%;
+    height: auto;
+    position: static;
+    padding: 0;
+    vertical-align: top;
+  }
+  section#design div.container div#design-container article.piece .hover h3 {
+    text-align: left;
+    color: #000;
+  }
+  section#design div.container div#design-container article.piece .btns {
+    position: static;
+    width: auto;
+    text-align: left;
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -1182,9 +1287,18 @@ section#design div.container div#design-container article.piece img {
   section#film div.container article#portal img {
     padding: 220px 0px 190px;
   }
+  section#design div.container div#design-container {
+    width: 80%;
+    margin: 0 auto;
+  }
   section#design div.container div#design-container article.piece {
-    width: 28%;
-    margin: 0 2.5% 40px;
+    width: 89%;
+  }
+  section#design div.container div#design-container article.piece img {
+    width: 20%;
+  }
+  section#design div.container div#design-container article.piece .hover {
+    width: 76%;
   }
   section#contact div.cans {
     background-position: center 0;
@@ -1299,13 +1413,13 @@ section#design div.container div#design-container article.piece img {
   section#contact div.container h1 {
     margin-top: 20px;
   }
+  section#design div.container div#design-container {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 500px) {
   section#typewriter-obsess div.container article#obsess {
     padding: 70px 0 80px;
-  }
-  section#design div.container div#design-container article.piece {
-    margin-bottom: 20px;
   }
   section#contact div.cans article p span.email {
     margin-top: 20px;
@@ -1335,9 +1449,5 @@ section#design div.container div#design-container article.piece img {
   header #crow img {
     width: 80%;
     padding: 50px 100px 40px 10px;
-  }
-  section#design div.container div#design-container article.piece {
-    width: 90%;
-    margin: 0 5% 20px;
   }
 }

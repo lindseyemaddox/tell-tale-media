@@ -27,9 +27,9 @@
 
 			<article id="text">
 
-				<h1>The new reel is being updated and will be up soon.</h1>
+				<h1 style="text-align:center;">The new reel is being updated and will be up soon.</h1>
 
-				<h2>Until then, please visit our <a href="https://vimeo.com/ttmnashville" target="_blank">Vimeo site</a> to see some of our latest endeavors.</h2>
+				<h2 style="text-align:center;">Until then, please visit our <a href="https://vimeo.com/ttmnashville" target="_blank">Vimeo site</a> to see some of our latest endeavors.</h2>
 
 			</article><!--text-->
 
