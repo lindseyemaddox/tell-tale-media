@@ -3,7 +3,6 @@
 
 
 header {
-	background-color: #fff;
 	div.inner {
 		background-color: @yellow;
 		position: relative;
@@ -11,6 +10,7 @@ header {
 	div#logo {
 		display: inline-block;
 		vertical-align: top;
+		border-left: 20px solid #fff;
 		padding-right: 25px;
 		width: 42%;
 		img {
@@ -18,12 +18,13 @@ header {
 		}
 	}
 	div#nav {
-		display: inline-block;
+		border-right: 20px solid #fff;
 		vertical-align: top;
 		width: 57%;
 		position: absolute;
 		bottom: 0;
 		top: 0;
+		right: 0;
 		overflow: hidden;
 	}
 	a#showMenu {
@@ -37,7 +38,7 @@ header {
 		display: inline-block;
 		margin: 20px 0;
 		a {
-			padding: 0 18px;
+			padding: 0 14px;
 			text-decoration: none;
 			color: #000;
 			background-position: 10px 20px;
@@ -58,7 +59,7 @@ header {
 					background: url(/_assets/img/hover-design.png) no-repeat center center @yellow;
 				}
 				&.ttm {
-					background: url(/_assets/img/hover-ttm.png) no-repeat center center @yellow;
+					background: url(/_assets/img/hover-about.png) no-repeat center center @yellow;
 				}
 				&.contact {
 					background: url(/_assets/img/hover-contact.png) no-repeat center center @yellow;

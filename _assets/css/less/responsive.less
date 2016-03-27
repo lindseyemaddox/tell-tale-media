@@ -13,6 +13,25 @@
 	.piece .btn {
 		font-size: .5em;
 	}
+	body {
+		background-color: #fff;
+	}
+	section#film div.container article#portal {
+		text-align: center;
+		iframe {
+			width: 100%;
+		}
+	}
+	section#film div.container article#portal {
+		width: 57%;
+		margin: 0 auto;
+		iframe {
+			height: 400px;
+		}
+	}
+	section#typewriter-obsess div.container article#obsess {
+		padding-bottom: 0;
+	}
 }
 
 @media screen and (max-width: 1200px) {
@@ -23,7 +42,7 @@
 		padding: 0 12px;
 	}
 	header #crow {
-		min-height: 135px;
+		min-height: 145px;
 		background-position: 84% 0;
 	}
 	section#design div.container div#design-container article.piece {
@@ -32,11 +51,17 @@
 	h3 {
 		line-height: 1.3em;
 	}
+	section#typewriter-obsess div.container article#typewriter {
+		padding-bottom: 108px;
+	}
 }
 
 @media screen and (max-width: 1100px) {
 	html {
 		font-size: 14.5px;
+	}
+	section#typewriter-obsess div.container {
+		background-size: 121%;
 	}
 	section#typewriter-obsess div.container article#typewriter {
 		padding-top: 150px;
@@ -56,7 +81,18 @@
 	header #crow img {
 		padding: 4px 30px 21px 100px;
 	}
-
+	header li a {
+		padding: 0 10px;
+	}
+	section#film div.container article#portal {
+		width: 67%;
+	}
+	footer {
+		border-top: 20px solid #fff;
+	}
+	section#about div.container, section#film div.container, section#design div.container, section#contact div.container {
+		border-bottom: none;
+	}
 }
 
 @media screen and (max-width: 1024px) {
@@ -98,7 +134,7 @@
 		font-size: 14px;
 	}
 	header li a {
-		padding: 0 9px;
+		padding: 0 6px;
 	}
 	section#typewriter-obsess div.container article#typewriter {
 		width: 65%;
@@ -120,6 +156,9 @@
 	header #crow img {
 		width: 60%;
 		padding-bottom: 30px;
+	}
+	section#typewriter-obsess div.container {
+		background-size: 133%;
 	}
 }
 
@@ -168,9 +207,15 @@
 		margin-top: 0;
 		background-size: 25%;
 		background-position: 72% 30px;
+		max-height: 125px;
+		position: absolute;
+		bottom: 0;
 	}
 	header #crow img {
 		padding: 40px 30px 50px 100px;
+	}
+	section#film div.container article#portal {
+		width: 90%;
 	}
 	section#film div.container article#portal img {
 		padding: 220px 0px 190px;
@@ -193,6 +238,9 @@
 	}
 	section#contact div.cans .info {
 		width: 60%;
+	}
+	section#typewriter-obsess div.container {
+		background-size: 139%;
 	}
 }
 
@@ -232,9 +280,11 @@
 		width: 100%;
 		position: static;
 	}
+	header div.inner {
+		border-right: 20px solid #fff;
+	}
 	header #crow {
-		margin-top: 40px;
-		background-position: 85% bottom;
+		display: none;
 	}
 	header #crow img {
 		padding: 22px 0px 20px 80px;
@@ -269,17 +319,13 @@
 		width: 100%;
 		padding: 0px 45px 50px 30px;
 	}
-	section#film div.container article#portal {
-		width: 100%;
-		margin: 0 auto 40px;
-	}
 	section#film div.container article#portal img {
 		padding: 65px 0px 50px;
 		width: 10%;
 	}
 	section#film div.container article#text {
 		width: 100%;
-		padding: 30px 30px 0;
+		padding: 0 30px 0;
 	}
 	section#contact div.cans article {
 		width: 100%;
@@ -296,6 +342,30 @@
 	section#contact div.container div.socials {
 		text-align: center;
 	}
+	section#typewriter-obsess div.container a.social {
+		bottom: 10px;
+	}
+	section#typewriter-obsess div.container article#typewriter a.social {
+		height: 40px;
+		img {
+			width: 100%;
+		}
+	}
+	section#typewriter-obsess div.container article#obsess a.vimeo {
+		height: 40px;
+		img {
+			width: 100%;
+		}
+	}
+	section#typewriter-obsess div.container article#typewriter a.instagram {
+		left: 60px;
+	}
+	section#typewriter-obsess div.container article#typewriter a.twitter {
+		left: 110px;
+	}
+	section#contact div.container div.socials {
+		margin-bottom: 20px;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -304,6 +374,9 @@
 	}
 	section#design div.container div#design-container {
 		width: 100%;
+	}
+	section#film div.container article#portal iframe {
+		height: 290px;
 	}
 }
 
@@ -340,6 +413,53 @@
 	header #crow img {
 		width: 80%;
 		padding: 50px 100px 40px 10px;
+	}
+	section#film div.container article#portal {
+		padding-top: 20px;
+		iframe {
+			height: 190px;
+		}
+	}
+	section#design div.container div#design-container {
+		padding-top: 20px;
+	}
+	header a#showMenu {
+		width: 40px;
+		img {
+			width: 100%;
+		}
+	}
+	section#design div.container div#design-container article.piece img {
+		display: block;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	section#design div.container div#design-container article.piece .hover {
+		width: 100%;
+	}
+	.piece .btn {
+		font-size: 1em;
+	}
+	section#design div.container div#design-container article.piece {
+		margin-bottom: 60px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	section#design div.container div#design-container article.piece .btns {
+		text-align: right;
+	}
+	section#contact div.cans .info {
+		width: 80%;
+	}
+	section#contact div.cans article p span.email {
+		margin-top: 10px;
+	}
+	section#contact div.cans article p {
+		padding-top: 20px;
+	}
+	section#contact div.cans .info article:last-child p {
+		padding-top: 0;
 	}
 }
 
