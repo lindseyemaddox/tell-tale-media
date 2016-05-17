@@ -47,7 +47,7 @@
 		      			<h3>Freelance website design project for the Bill Hudson Agency. Established in 1963, the Bill Hudson Agency (BHA) is the oldest and one of the largest marketing and communications firms in Nashville. Their motto is “Do the right thing and do it well” and their mascot is Addy, the majestic Goldendoodle.</h3>
 		      			<div class="btns">
 			      			<a href="/_assets/img/portfolio-hudson-index.jpg" class="btn two fancybox" rel="hudson" title="Web design for the Bill Hudson Agency">View Slides</a>
-			      			<a class="btn two" href="http://www.billhudsonagency.com/" target="_blank" title="Bill Hudson Agency Website">Visit Site</a>
+<!-- 			      			<a class="btn two" href="http://www.billhudsonagency.com/" target="_blank" title="Bill Hudson Agency Website">Visit Site</a> -->
 						</div><!--btns-->
 		      		</div><!--hover-->
 
