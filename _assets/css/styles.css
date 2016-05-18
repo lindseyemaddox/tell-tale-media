@@ -961,7 +961,6 @@ section#contact div.cans article {
   display: inline-block;
 }
 section#contact div.cans article p {
-  padding: 10px 0 10px 20px;
   font-family: arial, sans-serif;
   font-size: 1em;
 }
@@ -976,6 +975,14 @@ section#contact div.cans article p a:hover {
   -o-transition: all 400ms ease;
   -ms-transition: all 400ms ease;
   transition: all 400ms ease;
+}
+section#contact div.cans article p.phone {
+  text-align: right;
+  padding: 10px 20px 10px 0px;
+}
+section#contact div.cans article p.address {
+  text-align: left;
+  padding: 10px 0 10px 15px;
 }
 section#contact div.cans article:first-child {
   border-right: 2px solid #000;
@@ -1440,8 +1447,11 @@ section#design div.container div#design-container article.piece .btns {
   section#contact div.cans article:first-child {
     border-right: none;
   }
-  section#contact div.cans article p {
+  section#contact div.cans article p.phone,
+  section#contact div.cans article p.address {
     text-align: center;
+    padding-right: 0;
+    padding-left: 0;
   }
   section#contact div.cans {
     background-position: center 70px;

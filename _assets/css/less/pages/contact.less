@@ -42,7 +42,6 @@ section#contact {
 			width: 49.5%;
 			display: inline-block;
 			p {
-				padding: 10px 0 10px 20px;
 				font-family: arial, sans-serif;
 				font-size: 1em;
 				a {
@@ -52,6 +51,14 @@ section#contact {
 						color: @yellow;
 						.transition;
 					}
+				}
+				&.phone {
+					text-align: right;
+					padding: 10px 20px 10px 0px;
+				}
+				&.address {
+					text-align: left;
+					padding: 10px 0 10px 15px;
 				}
 			}
 			&:first-child {

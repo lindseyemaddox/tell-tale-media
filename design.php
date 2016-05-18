@@ -341,8 +341,30 @@
 
 		      	</article>
 
-		      	<article class="piece websites posters branding brochures t-shirts packaging">
-		      		<a href="contact.php"><img src="/_assets/img/thumb-your-work.jpg" alt="your work here" title="your work here"></a>
+		      	<article class="piece websites">
+		      		
+		      		<img src="/_assets/img/thumb-fishing-charts.jpg" alt="Sealake Products website design">
+
+		      		<div class="hover">
+		      			<h3>Sealake Products LLC - Nautical Charts for the adventurer in you. </h3>
+		      			<div class="btns">
+			      			<a href="http://www.thegoodspots.com/" target="_blank" class="btn" title="Web design for Sealake Products">Visit Website</a>
+						</div><!--btns-->
+		      		</div><!--hover-->
+
+		      	</article>
+
+		      	<article class="piece posters">
+
+		      		<img src="/_assets/img/thumb-pirate.jpg" alt="Pirate Superstitions poster design">
+
+		      		<div class="hover">
+		      			<h3>Pirate poster for Sealake Products. Aaaaarrrrrrrr!!!!!</h3>
+		      			<div class="btns">
+			      			<a href="/_assets/img/portfolio-pirate.jpg" class="btn fancybox" title="Pirate Superstitions poster design">View Poster</a>
+						</div><!--btns-->
+		      		</div><!--hover-->
+
 		      	</article>
 
 		    </div><!--design-container-->

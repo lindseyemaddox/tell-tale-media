@@ -41,15 +41,15 @@
 				
 					<article>
 						
-						<p class="phone">Phone: <a href="tel:16154687669">(615) 468-7669</a><br />
-						<span class="email">Email: <a href="mailto:info@ttmnashville.com">info@ttmnashville.com</a></span></p>
+						<p class="phone">Design: <a href="tel:16155457918">(615) 545-7918</a><br />
+						<span>Film: <a href="tel:16153644254">(615) 364-4254</a></span></p>
 
 					</article>
 
 					<article>
 						
-						<p class="address"><a href="https://goo.gl/maps/zAQ17" target="_blank">2034 Greenwood Ave.<br />
-						Nashville, TN 37206</a></p>
+						<p class="address">Email: <br />
+						<a href="mailto:info@ttmnashville.com">info@ttmnashville.com</a></p>
 
 					</article>
 

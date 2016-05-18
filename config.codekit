@@ -753,6 +753,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/portfolio-pirate.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 324735,
+		"inputAbbreviatedPath": "\/_assets\/img\/portfolio-pirate.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/portfolio-pirate.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/portfolio-poster-country-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1006,6 +1017,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/thumb-fishing-charts.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16276,
+		"inputAbbreviatedPath": "\/_assets\/img\/thumb-fishing-charts.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/thumb-fishing-charts.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/thumb-history.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1068,6 +1090,17 @@
 		"initialSize": 28971,
 		"inputAbbreviatedPath": "\/_assets\/img\/thumb-outside-the-box.jpg",
 		"outputAbbreviatedPath": "\/_assets\/img\/thumb-outside-the-box.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/thumb-pirate.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15184,
+		"inputAbbreviatedPath": "\/_assets\/img\/thumb-pirate.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/thumb-pirate.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
